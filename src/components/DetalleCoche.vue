@@ -97,7 +97,7 @@ export default {
         cargarCoche(){
             this.idcoche = this.$route.params.idcoche;
             console.log("id coche " + this.idcoche);
-            for(var i = 0; i<3; i++){
+            for(var i = 0; i<4; i++){
                 for(var k = 0; k<3; k++){
                     if(this.coches[i][k].idCoche  == this.idcoche){
                     this.cocheSeleccionado.idCoche = this.coches[i][k].idCoche;
