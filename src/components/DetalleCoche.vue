@@ -7,6 +7,7 @@
             <img :src="cocheSeleccionado.imagen" style="width:500px; margin:auto;" class="card-img"/>
             <p>{{cocheSeleccionado.descripcion}}</p>
         </div>
+        <router-link to="/" class="nav-link btn btn-danger" style="width:100px; margin:0 auto;" >Volver a Home</router-link>
     </div>
 </template>
 <script>
